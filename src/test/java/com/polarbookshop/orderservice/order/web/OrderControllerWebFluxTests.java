@@ -1,4 +1,4 @@
-package com.polarbookshop.orderservice.book.order.domain.web;
+package com.polarbookshop.orderservice.order.web;
 
 import com.polarbookshop.orderservice.order.domain.Order;
 import com.polarbookshop.orderservice.order.domain.OrderService;
