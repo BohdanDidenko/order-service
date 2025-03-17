@@ -3,7 +3,7 @@ on: push
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: alex777360/order-service.yml
+  IMAGE_NAME: bohdandidenko/order-service.yml
   VERSION: latest
 
 jobs:
