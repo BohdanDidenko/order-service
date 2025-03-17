@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: order-service.yml
+  name: order-service
   labels:
-    app: order-service.yml
+    app: order-service
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: order-service.yml
+      app: order-service
   template:
     metadata:
       labels:
-        app: order-service.yml
+        app: order-service
     spec:
       containers:
-        - name: order-service.yml
-          image: order-service.yml
+        - name: order-service
+          image: order-service
           imagePullPolicy: IfNotPresent
           lifecycle:
             preStop:
